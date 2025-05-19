@@ -7,7 +7,8 @@ app = Flask(__name__)
 DB_PATHS = {
     "movie2": "db/movie2.db",
     "beyazesya": "db/beyazesya.db",
-    "dreamhome": "db/dreamhome.db"
+    "dreamhome": "db/dreamhome.db",
+    "okul": "db/okul.db"
 }
 
 def get_tables_and_columns(db_path):
